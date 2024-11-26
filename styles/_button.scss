@@ -1,0 +1,9 @@
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 50px;
+    @include flexCenter(center,30px);
+    color: blue;
+    #once{
+        color: black;
+    }
+}

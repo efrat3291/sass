@@ -1,0 +1,14 @@
+@import './href';
+@import './button';
+@import './variebles';
+@import './header';
+header{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 50px;
+}

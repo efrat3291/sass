@@ -1,0 +1,9 @@
+a{
+    &:hover{
+        opacity: $opacityHover;
+    }
+}
+ul{
+    @include flexCenter(center,15px);
+    color: $colorBtn;
+}

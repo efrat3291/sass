@@ -1,0 +1,20 @@
+$colorBtn:rgb(235, 171, 171);
+$opacityHover:0.5;
+$colorHref:rgb(136, 249, 142);
+$fontAll:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+@mixin flexCenter($direction,$size){
+  font-family: $fontAll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin classStyle($font,$backgroundColor,$fontWeight, $fontSize,$size){
+  font-family: $font;
+  background-color: $backgroundColor;
+  font-weight:$fontWeight ;
+  font-size: $fontSize;
+  size:$size ;
+}

@@ -1,0 +1,15 @@
+    .text-success{
+    @include classStyle('Segoe UI',(rgb(80, 238, 172)),5,3,4);
+    }
+    
+    .text-danger{
+        @include classStyle('Segoe UI',(rgb(236, 138, 52)),5,3,4);
+    }
+    
+    .text-warning{
+        @include classStyle('Segoe UI',(rgb(239, 99, 99)),5,3,4);
+        
+    }
+    .text-info{
+        @include classStyle('Segoe UI',(rgb(238, 80, 172)),5,3,4);    
+    }
